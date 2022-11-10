@@ -10,7 +10,7 @@ public class NumberReverter {
             reverse = reverse * 10 + remainder;
             number = number/10;
         }
-        System.out.println("The reverse of the given number is: " + reverse);
+        System.out.println(reverse);
     }
 }
 
